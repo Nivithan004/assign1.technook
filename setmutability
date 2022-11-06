@@ -1,0 +1,35 @@
+# ASSIGNMENT_1
+# MUTABILITY OF SET IN PYTHON
+
+myset= {"Data","data1",0,5.5,"Task"}
+print(myset)
+
+#add
+myset.add("love")
+print(myset)
+
+#update
+myset.update(["Nivi",5])
+print(myset)
+
+#remove
+myset.remove("data1")
+print(myset)
+
+#pop
+myset.pop()
+print(myset)
+
+#delete
+del myset
+print(myset)
+
+OUTPUT:
+{0, 'data1', 5.5, 'Task', 'Data'}
+{0, 'data1', 5.5, 'love', 'Task', 'Data'}
+{0, 'data1', 5.5, 5, 'Nivi', 'love', 'Task', 'Data'}
+{0, 5.5, 5, 'Nivi', 'love', 'Task', 'Data'}
+{5.5, 5, 'Nivi', 'love', 'Task', 'Data'}
+
+
+Therefore SET is mutable
